@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Advanced Image Gallery</title>
+<link rel="stylesheet" href="style.css">
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
+</head>
+<body>
+
+<header>
+    <h1>Advanced Image Gallery</h1>
+
+    <div class="filter-buttons">
+        <button class="active" data-filter="all">All</button>
+        <button data-filter="nature">Nature</button>
+        <button data-filter="city">City</button>
+        <button data-filter="animals">Animals</button>
+        <button data-filter="travel">Travel</button>
+        <button data-filter="food">Food</button>
+    </div>
+</header>
+
+<section class="gallery">
+
+    <!-- Nature -->
+    <div class="image nature"><img src="https://picsum.photos/id/10/600/400"></div>
+    <div class="image nature"><img src="https://picsum.photos/id/11/600/400"></div>
+    <div class="image nature"><img src="https://picsum.photos/id/12/600/400"></div>
+    <div class="image nature"><img src="https://picsum.photos/id/13/600/400"></div>
+    <div class="image nature"><img src="https://picsum.photos/id/14/600/400"></div>
+    <div class="image nature"><img src="https://picsum.photos/id/15/600/400"></div>
+
+    <!-- City -->
+    <div class="image city"><img src="https://picsum.photos/id/1011/600/400"></div>
+    <div class="image city"><img src="https://picsum.photos/id/1012/600/400"></div>
+    <div class="image city"><img src="https://picsum.photos/id/1013/600/400"></div>
+    <div class="image city"><img src="https://picsum.photos/id/1014/600/400"></div>
+    <div class="image city"><img src="https://picsum.photos/id/1015/600/400"></div>
+    <div class="image city"><img src="https://picsum.photos/id/1016/600/400"></div>
+
+    <!-- Animals -->
+    <div class="image animals"><img src="https://picsum.photos/id/1024/600/400"></div>
+    <div class="image animals"><img src="https://picsum.photos/id/1025/600/400"></div>
+    <div class="image animals"><img src="https://picsum.photos/id/1027/600/400"></div>
+    <div class="image animals"><img src="https://picsum.photos/id/1028/600/400"></div>
+    <div class="image animals"><img src="https://picsum.photos/id/1029/600/400"></div>
+    <div class="image animals"><img src="https://picsum.photos/id/1033/600/400"></div>
+
+    <!-- Travel -->
+    <div class="image travel"><img src="https://picsum.photos/id/1040/600/400"></div>
+    <div class="image travel"><img src="https://picsum.photos/id/1041/600/400"></div>
+    <div class="image travel"><img src="https://picsum.photos/id/1042/600/400"></div>
+    <div class="image travel"><img src="https://picsum.photos/id/1043/600/400"></div>
+    <div class="image travel"><img src="https://picsum.photos/id/1044/600/400"></div>
+    <div class="image travel"><img src="https://picsum.photos/id/1045/600/400"></div>
+
+    <!-- Food -->
+    <div class="image food"><img src="https://picsum.photos/id/1050/600/400"></div>
+    <div class="image food"><img src="https://picsum.photos/id/1051/600/400"></div>
+    <div class="image food"><img src="https://picsum.photos/id/1052/600/400"></div>
+    <div class="image food"><img src="https://picsum.photos/id/1053/600/400"></div>
+    <div class="image food"><img src="https://picsum.photos/id/1054/600/400"></div>
+    <div class="image food"><img src="https://picsum.photos/id/1055/600/400"></div>
+
+</section>
+
+<!-- Lightbox -->
+<div class="lightbox">
+    <span class="close">&times;</span>
+
+    <button class="prev">
+        <i class="fa-solid fa-angle-left"></i>
+    </button>
+
+    <img class="lightbox-img">
+
+    <button class="next">
+        <i class="fa-solid fa-angle-right"></i>
+    </button>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
